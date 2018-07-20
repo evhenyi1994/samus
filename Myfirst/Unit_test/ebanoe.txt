@@ -1,6 +1,6 @@
 *** Settings ***
 Library     Selenium2Library
-Resource    RSC/lib/Keywords.txt
+Resource    RSC/LIB/Keywords.txt
 *** Test Cases ***
 open chrome
     open ebanoe
