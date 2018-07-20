@@ -1,6 +1,11 @@
 *** Settings ***
-Documentation    Suite description
-
+Library     Selenium2Library
+Resource    RSC/lib/Keywords.txt
 *** Test Cases ***
-
+open chrome
+    open ebanoe
+click on pic
+    click on logo
+close ch
+    close chrome
 

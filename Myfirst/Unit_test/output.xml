@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180720 11:19:44.855" generator="Robot 3.0.2 (Python 2.7.14 on win32)">
+<suite source="C:\Users\Samusenko\Documents\GitHub\samus\Myfirst\Unit_test\ebanoe.txt" id="s1" name="Ebanoe">
+<test id="s1-t1" name="open chrome">
+<kw name="open ebanoe" library="Keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://ebanoe.it/</arg>
+<arg>gc</arg>
+</arguments>
+<msg timestamp="20180720 11:19:44.969" level="INFO">Opening browser 'gc' to base url 'https://ebanoe.it/'.</msg>
+<status status="PASS" endtime="20180720 11:19:48.475" starttime="20180720 11:19:44.968"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20180720 11:19:49.592" starttime="20180720 11:19:48.475"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20180720 11:19:54.592" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20180720 11:19:54.592" starttime="20180720 11:19:49.592"></status>
+</kw>
+<status status="PASS" endtime="20180720 11:19:54.592" starttime="20180720 11:19:44.968"></status>
+</kw>
+<status status="PASS" endtime="20180720 11:19:54.592" critical="yes" starttime="20180720 11:19:44.968"></status>
+</test>
+<test id="s1-t2" name="click on pic">
+<kw name="click on logo" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//img[@alt="Ebanoe.IT - голая правда о нашем айти"]</arg>
+</arguments>
+<msg timestamp="20180720 11:19:54.592" level="INFO">Clicking element '//img[@alt="Ebanoe.IT - голая правда о нашем айти"]'.</msg>
+<status status="PASS" endtime="20180720 11:19:55.434" starttime="20180720 11:19:54.592"></status>
+</kw>
+<status status="PASS" endtime="20180720 11:19:55.434" starttime="20180720 11:19:54.592"></status>
+</kw>
+<status status="PASS" endtime="20180720 11:19:55.434" critical="yes" starttime="20180720 11:19:54.592"></status>
+</test>
+<test id="s1-t3" name="close ch">
+<kw name="close chrome" library="Keywords">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20180720 11:19:58.572" starttime="20180720 11:19:55.435"></status>
+</kw>
+<status status="PASS" endtime="20180720 11:19:58.572" starttime="20180720 11:19:55.435"></status>
+</kw>
+<status status="PASS" endtime="20180720 11:19:58.572" critical="yes" starttime="20180720 11:19:55.434"></status>
+</test>
+<status status="PASS" endtime="20180720 11:19:58.573" starttime="20180720 11:19:44.858"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="3">Critical Tests</stat>
+<stat fail="0" pass="3">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Ebanoe" pass="3">Ebanoe</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

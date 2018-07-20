@@ -1,0 +1,10 @@
+*** Keywords ***
+open ebanoe
+    Open Browser    https://ebanoe.it/     gc
+    Maximize Browser Window
+    sleep   5
+click on logo
+  Click Element     //img[@alt="Ebanoe.IT - голая правда о нашем айти"]
+
+close chrome
+    Close browser
